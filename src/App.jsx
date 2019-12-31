@@ -43,18 +43,34 @@ function App() {
               YouTube and play your favorite artist’s latest releases,
               playlists, songs and albums from any page.
             </p>
-            <motion.a
-              className="cta"
-              whileHover={{
-                scale: 1.1,
-              }}
-              whileTap={{
-                scale: 0.96,
-              }}
-              href="https://addons.mozilla.org/firefox/downloads/file/3476701/ishuffle-0.0.3-fx.xpi?src=devhub"
-            >
-              Get iShuffle for Firefox
-            </motion.a>
+
+            <div className="cta-wrapper">
+              <motion.a
+                className="cta"
+                whileHover={{
+                  scale: 1.1,
+                }}
+                whileTap={{
+                  scale: 0.96,
+                }}
+                href="https://addons.mozilla.org/firefox/downloads/file/3476701/ishuffle-0.0.3-fx.xpi?src=devhub"
+              >
+                Download for Firefox
+              </motion.a>
+
+              <motion.a
+                className="cta"
+                whileHover={{
+                  scale: 1.1,
+                }}
+                whileTap={{
+                  scale: 0.96,
+                }}
+                href="https://chrome.google.com/webstore/detail/cdnnpipncmghbcfkadecjchajedkegbc/publish-accepted"
+              >
+                Download for Chrome
+              </motion.a>
+            </div>
           </div>
         </div>
       </section>
