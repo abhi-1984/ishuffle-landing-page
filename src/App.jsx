@@ -65,7 +65,7 @@ function App() {
                 whileTap={{
                   scale: 0.96,
                 }}
-                href="https://chrome.google.com/webstore/detail/cdnnpipncmghbcfkadecjchajedkegbc/publish-accepted"
+                href="https://chrome.google.com/webstore/detail/cdnnpipncmghbcfkadecjchajedkegbc/"
               >
                 Download for Chrome
               </motion.a>
