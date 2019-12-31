@@ -53,6 +53,18 @@ function App() {
                 whileTap={{
                   scale: 0.96,
                 }}
+                href="https://addons.mozilla.org/en-US/firefox/addon/ishuffle/"
+              >
+                Download for Firefox
+              </motion.a>
+              <motion.a
+                className="cta"
+                whileHover={{
+                  scale: 1.1,
+                }}
+                whileTap={{
+                  scale: 0.96,
+                }}
                 href="https://chrome.google.com/webstore/detail/cdnnpipncmghbcfkadecjchajedkegbc/publish-accepted"
               >
                 Download for Chrome
