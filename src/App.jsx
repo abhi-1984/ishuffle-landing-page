@@ -67,6 +67,21 @@ function App() {
           </a>
         </div>
       </footer>
+
+      <a
+        className="product-hunt-link"
+        href="https://www.producthunt.com/posts/ishuffle?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-ishuffle"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=179412&theme=light"
+          alt="iShuffle - Listen to your favorite music, in perfect harmony. | Product Hunt Embed"
+          style={{ width: '240px', height: '50px' }}
+          width="240px"
+          height="50px"
+        />
+      </a>
     </div>
   );
 }
