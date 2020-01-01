@@ -76,7 +76,7 @@ function App() {
 
       <footer className="footer">
         <div className="wrapper">
-          <div className="copyright">©2019 iShuffle · All Right Reserved.</div>
+          <div className="copyright">©2020 iShuffle · All Right Reserved.</div>
           <a className="credit" href="https://www.twitter.com/_abhiii">
             Designed by Abhi
           </a>
